@@ -4,8 +4,9 @@ const app = express()
 const cors = require("cors")
 const dbConfig = require("./config/dbConfig")
 
+
 // midddleware
-app.use(express.json)
+app.use(express.json())
 app.use(cors())
 
 // database config
